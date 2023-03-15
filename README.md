@@ -15,5 +15,7 @@ This is a test for Building a Unity Android project from Docker. I haven't teste
 
 ##### Another note
 The editor version being used is hardcoded every where
+
 To Do:
 - Instead of hardcoding the Unity version everywhere, make it a input since when building the image.
+- Automate the return the license key before destroying the container
