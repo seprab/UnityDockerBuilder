@@ -14,7 +14,8 @@ This is a test for Building a Unity Android project from Docker. I haven't teste
 5. `./project-builder.sh`
 
 ##### Another note
-The editor version being used is hardcoded every where
+The editor version being used is hardcoded every where. And one may manually return the license before destroying the container. It could be done by:
+> `./scripts/return-license.sh 2021.3.20f1 <your serial key> <your unity user> <you unity pass>`
 
 To Do:
 - Instead of hardcoding the Unity version everywhere, make it a input since when building the image.
